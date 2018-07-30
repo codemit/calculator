@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Prozent Rechnen</title>
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="main">
+
+      <div class="links"> </div>
+      <div class="right"> </div>
+      <div class="wert">
+      <!--////////////////////////// Wert HTML codes////////////////////////////////-->
+      <center>
+        <h3>Wert rechnen</h3>
+        <input type="number" id="prozent" placeholder="Prozent">
+        <input type="number" id="grundWert" placeholder="Grundwert">
+        <!-- <button type="button" onclick="wert()"> Rechnen </button> -->
+        <p id="demo">0</p>
+      </center>
+      </div>
+<!--////////////////////////// Porzent HTML codes////////////////////////////////-->
+    <div class="prozent">
+      <center>
+        <h3>Prozent rechnen</h3>
+        <input type="number" id="wertValue" placeholder="Wert">
+        <input type="number" id="grundWertA" placeholder="Grundwert">
+        <!-- <button type="button" onclick="prozent()"> Rechnen </button> -->
+        <p id="demoA">0</p>
+      </center>
+    </div>
+<!--////////////////////////// Grundwert HTML codes////////////////////////////////-->
+    <div class="grundWert">
+      <center>
+        <h3>Grundwert rechnen</h3>
+        <input type="number" id="wertValueA" placeholder="Wert">
+        <input type="number" id="prozentValueA" placeholder="Prozent">
+        <!-- <button type="button" onclick="grundWert()"> Rechnen </button> -->
+        <p id="demoB">0</p>
+      </center>
+    </div>
+<!--////////////////////////// Temperatur HTML codes////////////////////////////////-->
+    <div class="temp">
+      <center>
+        <h3>Temperatur rechnen</h3>
+        <input type="number" id="tempValueF" placeholder="Fahrenheit Value">
+        <button type="button" onclick="cels()"> Celsius </button> <br>
+        <input type="number" id="tempValueC" placeholder="Celsius Value">
+        <button type="button" onclick="fahr()"> Fahrenheit </button>
+        <p id="temp">0</p>
+      </center>
+    </div>
+
+<!-- //////////////////////////////Audio berechnen/////////////////////////////////////// -->
+    <div class="audio">
+      <center>
+        <h3>Audio Brechnen</h3>
+        <input type="number" id="auflosung" placeholder="Auflösung">
+        <input type="number" id="sHz" placeholder="Hz">
+        <input type="number" id="aKanal" name=""  placeholder="Kanal">
+        <input type="number" id="zeitMin" name="" placeholder="Minute">
+        <input type="number" id="zeitSec" name=""  placeholder="Sekunde"> <br>
+        <div class="audioValue">
+          <p id="byte" class="audioP"></p>
+          <p id="kb" class="audioP"></p>
+          <p id="mb" class="audioP"></p>
+          <p id="gb" class="audioP"></p>
+        </div>
+      </center>
+    </div>
+<!-- //////////////////////////////Bild berechnen/////////////////////////////////////// -->
+    <div class="bild">
+      <center>
+        <h3>Bild Brechnen</h3>
+        <input type="number" id="hohe" placeholder="Höhe">
+        <input type="number" id="breite" placeholder="Breite" name="" value="">
+        <input type="number" id="dpi" placeholder="dpi" name="" value="">
+        <input type="number" id="farbT" placeholder="Farbtiefe 'bit'" name="" value="">
+        <p id="pixelanzahl"></p>
+        <p id="bb"></p>
+        <p id="bbbyte"></p>
+        <p id="bkb"></p>
+        <p id="bmb"></p>
+      </center>
+    </div>
+    </div>
+</div>
+<script src="script.js" > </script>
+  </body>
+</html>
